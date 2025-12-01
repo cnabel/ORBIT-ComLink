@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Server.TransmissionLogging;
+namespace ORBIT.ComLink.Common.Network.Server.TransmissionLogging;
 
 internal class TransmissionLog
 {

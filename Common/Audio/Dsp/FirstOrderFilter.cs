@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Dsp
+namespace ORBIT.ComLink.Common.Audio.Dsp
 {
     // https://dsp.stackexchange.com/a/93451
     internal class FirstOrderFilter : IFilter

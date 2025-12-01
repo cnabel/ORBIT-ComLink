@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.NetCoreServer;
+namespace ORBIT.ComLink.Common.NetCoreServer;
 
 /// <summary>
 ///     TCP session is used to read and write data from the connected TCP client

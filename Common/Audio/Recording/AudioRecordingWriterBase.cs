@@ -5,7 +5,7 @@ using System.Buffers;
 using System.Collections.Generic;
 using System.IO;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Recording
+namespace ORBIT.ComLink.Common.Audio.Recording
 {
     internal abstract class AudioRecordingWriterBase
     {

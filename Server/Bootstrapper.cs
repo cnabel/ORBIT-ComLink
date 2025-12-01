@@ -6,16 +6,16 @@ using System.Windows;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
 using Caliburn.Micro;
-using Ciribob.DCS.SimpleRadio.Standalone.Common;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Server;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings.Setting;
-using Ciribob.DCS.SimpleRadio.Standalone.Server.Properties;
-using Ciribob.DCS.SimpleRadio.Standalone.Server.UI.ClientAdmin;
-using Ciribob.DCS.SimpleRadio.Standalone.Server.UI.MainWindow;
+using ORBIT.ComLink.Common;
+using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Network;
+using ORBIT.ComLink.Common.Network.Server;
+using ORBIT.ComLink.Common.Network.Singletons;
+using ORBIT.ComLink.Common.Settings;
+using ORBIT.ComLink.Common.Settings.Setting;
+using ORBIT.ComLink.Server.Properties;
+using ORBIT.ComLink.Server.UI.ClientAdmin;
+using ORBIT.ComLink.Server.UI.MainWindow;
 using NLog;
 using NLog.Config;
 using NLog.Targets;
@@ -23,7 +23,7 @@ using NLog.Targets.Wrappers;
 using Sentry;
 using LogManager = NLog.LogManager;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Server;
+namespace ORBIT.ComLink.Server;
 
 public class Bootstrapper : BootstrapperBase
 {

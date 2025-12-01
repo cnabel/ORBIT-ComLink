@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Dsp
+namespace ORBIT.ComLink.Common.Audio.Dsp
 {
     internal interface IFilter
     {

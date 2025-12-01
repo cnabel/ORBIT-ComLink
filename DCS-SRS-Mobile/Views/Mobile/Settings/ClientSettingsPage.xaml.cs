@@ -1,4 +1,4 @@
-﻿namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.Settings;
+﻿namespace ORBIT.ComLink.Client.Mobile.Views.Mobile.Settings;
 
 /// <summary>
 ///     Interaction logic for ClientSettings.xaml

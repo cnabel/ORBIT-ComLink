@@ -4,9 +4,9 @@ using System.IO;
 using System.IO.Compression;
 using System.Linq;
 using System.Text;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.LameWrapper;
+using ORBIT.ComLink.Common.Audio.LameWrapper;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.NAudioLame;
+namespace ORBIT.ComLink.Common.Audio.NAudioLame;
 
 /// <summary>
 ///     Decoder for ID3v2 tags

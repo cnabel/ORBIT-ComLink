@@ -2,7 +2,7 @@
 using System;
 using System.Numerics;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers;
+namespace ORBIT.ComLink.Common.Audio.Providers;
 
 //From https://raw.githubusercontent.com/naudio/NAudio/master/NAudio/Wave/SampleProviders/VolumeSampleProvider.cs
 public class VolumeSampleProviderWithPeak : ISampleProvider

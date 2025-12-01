@@ -1,4 +1,4 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+﻿using ORBIT.ComLink.Common.Models.Player;
 using System;
 using System.Buffers;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models
+namespace ORBIT.ComLink.Common.Audio.Models
 {
     // https://stackoverflow.com/questions/538060/proper-use-of-the-idisposable-interface#538238
     public class TransmissionSegment

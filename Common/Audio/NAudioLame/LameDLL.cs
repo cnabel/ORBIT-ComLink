@@ -1,6 +1,6 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.LameWrapper;
+﻿using ORBIT.ComLink.Common.Audio.LameWrapper;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.NAudioLame;
+namespace ORBIT.ComLink.Common.Audio.NAudioLame;
 
 public static class LameDLL
 {

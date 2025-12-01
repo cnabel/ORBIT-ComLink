@@ -1,4 +1,4 @@
-﻿namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Client;
+﻿namespace ORBIT.ComLink.Common.Network.Client;
 
 public class EAMConnectRequestMessage
 {

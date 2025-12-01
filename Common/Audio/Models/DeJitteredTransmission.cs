@@ -1,6 +1,6 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+﻿using ORBIT.ComLink.Common.Models.Player;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models;
+namespace ORBIT.ComLink.Common.Audio.Models;
 
 //TODO profile if its better as class or struct
 public struct DeJitteredTransmission

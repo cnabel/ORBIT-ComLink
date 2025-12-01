@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Settings.Input;
+namespace ORBIT.ComLink.Common.Settings.Input;
 
 public class InputDevice
 {

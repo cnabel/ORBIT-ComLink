@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+namespace ORBIT.ComLink.Common.Models.Player;
 
 public partial class RadioBase
 {

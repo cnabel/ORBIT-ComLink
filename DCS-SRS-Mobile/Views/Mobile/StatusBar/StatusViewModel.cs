@@ -1,9 +1,9 @@
 using Caliburn.Micro;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.EventMessages;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
+using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Models.EventMessages;
+using ORBIT.ComLink.Common.Network.Singletons;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.StatusBar;
+namespace ORBIT.ComLink.Client.Mobile.Views.Mobile.StatusBar;
 
 public class StatusViewModel : PropertyChangedBaseClass, IHandle<VOIPStatusMessage>, IHandle<TCPClientStatusMessage>
 {

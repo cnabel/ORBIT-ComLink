@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
+using ORBIT.ComLink.Common.Audio.Models;
+using ORBIT.ComLink.Common.Models.Player;
+using ORBIT.ComLink.Common.Settings;
 using NAudio.Wave;
 using System.Buffers;
 using System.Numerics;
 using System.Runtime.InteropServices;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
+using ORBIT.ComLink.Common.Helpers;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers;
+namespace ORBIT.ComLink.Common.Audio.Providers;
 
 public class ClientAudioProvider : AudioProvider
 {

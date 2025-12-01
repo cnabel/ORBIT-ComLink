@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Dsp
+namespace ORBIT.ComLink.Common.Audio.Dsp
 {
     // Source: https://github.com/naudio/NAudio/blob/master/NAudio.Core/Dsp/EnvelopeDetector.cs
     internal class EnvelopeDetector

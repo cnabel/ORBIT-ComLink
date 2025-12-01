@@ -1,7 +1,7 @@
 ﻿using NAudio.Wave;
 using System;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Utility.Speex
+namespace ORBIT.ComLink.Common.Audio.Utility.Speex
 {
     /// <summary>
     ///     A preprocessor for microphone input which performs denoising and automatic gain control

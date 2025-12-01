@@ -1,4 +1,4 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Dsp;
+﻿using ORBIT.ComLink.Common.Audio.Dsp;
 using NAudio.Wave;
 using System;
 using System.Buffers;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers
+namespace ORBIT.ComLink.Common.Audio.Providers
 {
     internal class SidechainCompressorProvider : ISampleProvider
     {

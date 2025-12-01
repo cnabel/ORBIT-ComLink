@@ -2,7 +2,7 @@
     <PropertyGroup>
         <TargetFramework>net9.0-windows</TargetFramework>
         <OutputType>WinExe</OutputType>
-        <AssemblyName>SRS-AutoUpdater</AssemblyName>
+        <AssemblyName>ComLink-AutoUpdater</AssemblyName>
         <IsWebBootstrapper>false</IsWebBootstrapper>
         <PublishUrl>publish\</PublishUrl>
         <Install>true</Install>
@@ -26,8 +26,8 @@
         <AssemblyVersion>2.3.3.3</AssemblyVersion>
         <FileVersion>2.3.3.3</FileVersion>
         <Version>2.3.3.3</Version>
-        <Company>Ciribob - GitHub.com/Ciribob</Company>
-        <Product>DCS-SRS-AutoUpdater</Product>
+        <Company>ORBIT</Company>
+        <Product>ComLink-AutoUpdater</Product>
     </PropertyGroup>
     <PropertyGroup>
         <ApplicationIcon>system_software_update.ico</ApplicationIcon>

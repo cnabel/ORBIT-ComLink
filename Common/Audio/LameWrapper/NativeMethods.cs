@@ -46,7 +46,7 @@ using System;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.LameWrapper;
+namespace ORBIT.ComLink.Common.Audio.LameWrapper;
 
 [UnmanagedFunctionPointer(CallingConvention.Cdecl, SetLastError = true, CharSet = CharSet.Ansi)]
 internal delegate void delReportFunction(string fmt, IntPtr args);

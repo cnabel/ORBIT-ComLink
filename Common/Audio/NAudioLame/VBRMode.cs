@@ -1,4 +1,4 @@
-﻿namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.NAudioLame;
+﻿namespace ORBIT.ComLink.Common.Audio.NAudioLame;
 
 /// <summary>Variable Bit Rate Mode</summary>
 public enum VBRMode : uint

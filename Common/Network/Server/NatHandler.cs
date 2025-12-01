@@ -3,7 +3,7 @@ using System.Threading;
 using NLog;
 using SharpOpenNat;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Server;
+namespace ORBIT.ComLink.Common.Network.Server;
 
 public class NatHandler
 {

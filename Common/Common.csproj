@@ -2,8 +2,8 @@
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
         <OutputType>Library</OutputType>
-        <RootNamespace>Ciribob.DCS.SimpleRadio.Standalone.Common</RootNamespace>
-        <AssemblyName>SRS-Common</AssemblyName>
+        <RootNamespace>ORBIT.ComLink.Common</RootNamespace>
+        <AssemblyName>ComLink-Common</AssemblyName>
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
         <UseWindowsForms>false</UseWindowsForms>
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -12,7 +12,7 @@
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <LangVersion>11</LangVersion>
         <Nullable>disable</Nullable>
-        <Company>Ciribob - GitHub.com/Ciribob</Company>
+        <Company>ORBIT</Company>
         <AssemblyVersion>2.3.3.3</AssemblyVersion>
         <FileVersion>2.3.3.3</FileVersion>
     </PropertyGroup>

@@ -1,4 +1,4 @@
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common;
+namespace ORBIT.ComLink.Common;
 
 public class Constants
 {

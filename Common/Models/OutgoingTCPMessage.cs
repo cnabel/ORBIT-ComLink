@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Net.Sockets;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Models;
+namespace ORBIT.ComLink.Common.Models;
 
 public class OutgoingTCPMessage
 {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Codecs
+namespace ORBIT.ComLink.Common.Audio.Codecs
 {
     // https://github.com/jgaeddert/liquid-dsp/blob/582f135d1381aacbc36769d779062f33aa697473/src/audio/src/cvsd.c#L124
     internal class CVSD

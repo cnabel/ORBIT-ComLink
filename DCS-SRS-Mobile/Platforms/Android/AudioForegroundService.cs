@@ -2,10 +2,10 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Caliburn.Micro;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.EventMessages;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
+using ORBIT.ComLink.Common.Models.EventMessages;
+using ORBIT.ComLink.Common.Network.Singletons;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile;
+namespace ORBIT.ComLink.Client.Mobile;
 
 /// <summary>
 ///     Just by having this service active it keeps our app running and the audio playing correctly

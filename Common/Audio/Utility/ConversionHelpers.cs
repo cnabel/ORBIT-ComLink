@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Utility;
+namespace ORBIT.ComLink.Common.Audio.Utility;
 
 public class ConversionHelpers
 {

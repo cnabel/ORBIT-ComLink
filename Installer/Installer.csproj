@@ -21,8 +21,8 @@
     <UseWindowsForms>true</UseWindowsForms>
     <UseWPF>true</UseWPF>
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
-    <Company>Ciribob - GitHub.com/Ciribob</Company>
-    <Product>DCS-SimpleRadio Standalone</Product>
+    <Company>ORBIT</Company>
+    <Product>ORBIT ComLink</Product>
     <AssemblyVersion>2.3.3.3</AssemblyVersion>
     <FileVersion>2.3.3.3</FileVersion>
     <Version>2.3.3.3</Version>

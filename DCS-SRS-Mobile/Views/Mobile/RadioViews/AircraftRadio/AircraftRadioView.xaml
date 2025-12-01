@@ -2,7 +2,7 @@
 
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.RadioViews.AircraftRadio.AircraftRadioView">
+             x:Class="ORBIT.ComLink.Client.Mobile.Views.Mobile.RadioViews.AircraftRadio.AircraftRadioView">
     <VerticalStackLayout VerticalOptions="Start" Padding="5" Spacing="10">
         <Grid ColumnSpacing="10" RowSpacing="10" Margin="2">
             <Grid.RowDefinitions>

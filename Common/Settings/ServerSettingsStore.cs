@@ -4,12 +4,12 @@ using System.Globalization;
 using System.IO;
 using System.Net;
 using System.Text.Json;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings.Setting;
+using ORBIT.ComLink.Common.Models.Player;
+using ORBIT.ComLink.Common.Settings.Setting;
 using NLog;
 using SharpConfig;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
+namespace ORBIT.ComLink.Common.Settings;
 
 public class ServerSettingsStore
 {

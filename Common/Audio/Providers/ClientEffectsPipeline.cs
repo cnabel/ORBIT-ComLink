@@ -1,9 +1,9 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings.Setting;
+﻿using ORBIT.ComLink.Common.Audio.Models;
+using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Models.Player;
+using ORBIT.ComLink.Common.Network.Singletons;
+using ORBIT.ComLink.Common.Settings;
+using ORBIT.ComLink.Common.Settings.Setting;
 using NAudio.Wave;
 using NAudio.Wave.SampleProviders;
 using NLog;
@@ -17,7 +17,7 @@ using System.Runtime.InteropServices;
 using System.Text.Json;
 
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers
+namespace ORBIT.ComLink.Common.Audio.Providers
 {
 
     public class ClientEffectsPipeline

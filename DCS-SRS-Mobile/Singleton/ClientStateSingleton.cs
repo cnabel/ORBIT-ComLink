@@ -1,14 +1,14 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Models.DCS.Models.DCSState;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings.Setting;
-using RadioReceivingState = Ciribob.DCS.SimpleRadio.Standalone.Common.Models.RadioReceivingState;
+﻿using ORBIT.ComLink.Client.Mobile.Models;
+using ORBIT.ComLink.Client.Mobile.Models.DCS.Models.DCSState;
+using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Models;
+using ORBIT.ComLink.Common.Models.Player;
+using ORBIT.ComLink.Common.Network.Singletons;
+using ORBIT.ComLink.Common.Settings;
+using ORBIT.ComLink.Common.Settings.Setting;
+using RadioReceivingState = ORBIT.ComLink.Common.Models.RadioReceivingState;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Singleton;
+namespace ORBIT.ComLink.Client.Mobile.Singleton;
 
 public sealed class ClientStateSingleton : PropertyChangedBaseClass
 {

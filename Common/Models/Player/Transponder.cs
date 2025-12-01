@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.Json.Serialization;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+namespace ORBIT.ComLink.Common.Models.Player;
 
 public class Transponder
 {

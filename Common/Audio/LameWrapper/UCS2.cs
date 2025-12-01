@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Text;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.LameWrapper;
+namespace ORBIT.ComLink.Common.Audio.LameWrapper;
 
 /// <summary>
 ///     Utility class for encoding/decoding UCS-2 strings with optional BOM and terminator

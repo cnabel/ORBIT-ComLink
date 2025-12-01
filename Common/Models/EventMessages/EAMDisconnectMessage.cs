@@ -1,4 +1,4 @@
-﻿namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Models.EventMessages;
+﻿namespace ORBIT.ComLink.Common.Models.EventMessages;
 
 public class EAMDisconnectMessage
 {

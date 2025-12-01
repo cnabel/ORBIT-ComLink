@@ -1,6 +1,6 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Dsp;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models.Dto;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers;
+﻿using ORBIT.ComLink.Common.Audio.Dsp;
+using ORBIT.ComLink.Common.Audio.Models.Dto;
+using ORBIT.ComLink.Common.Audio.Providers;
 using NAudio.Utils;
 using NAudio.Wave;
 using NAudio.Wave.SampleProviders;
@@ -12,7 +12,7 @@ using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models
+namespace ORBIT.ComLink.Common.Audio.Models
 {
     namespace Dto
     {

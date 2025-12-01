@@ -1,4 +1,4 @@
-﻿namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
+﻿namespace ORBIT.ComLink.Common.Settings;
 
 public class ProfileChangedMessage
 {

@@ -1,9 +1,9 @@
 ﻿using System;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Opus.Core;
+using ORBIT.ComLink.Common.Audio.Models;
+using ORBIT.ComLink.Common.Audio.Opus.Core;
 using NLog;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers;
+namespace ORBIT.ComLink.Common.Audio.Providers;
 
 public abstract class AudioProvider
 {

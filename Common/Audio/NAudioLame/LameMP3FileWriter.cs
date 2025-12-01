@@ -1,5 +1,5 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.LameWrapper;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.NetCoreServer;
+﻿using ORBIT.ComLink.Common.Audio.LameWrapper;
+using ORBIT.ComLink.Common.NetCoreServer;
 using NAudio.Wave;
 using System;
 using System.Buffers;
@@ -8,7 +8,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Runtime.InteropServices;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.NAudioLame;
+namespace ORBIT.ComLink.Common.Audio.NAudioLame;
 #pragma warning disable IDE1006 // Naming Styles
 
 /// <summary>Delegate for receiving output messages</summary>

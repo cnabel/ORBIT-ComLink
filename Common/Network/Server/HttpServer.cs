@@ -3,14 +3,14 @@ using System.Collections.Concurrent;
 using System.Net;
 using System.Text;
 using System.Text.Json;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings.Setting;
+using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Models;
+using ORBIT.ComLink.Common.Models.Player;
+using ORBIT.ComLink.Common.Settings;
+using ORBIT.ComLink.Common.Settings.Setting;
 using NLog;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Server;
+namespace ORBIT.ComLink.Common.Network.Server;
 
 public class HttpServer
 {

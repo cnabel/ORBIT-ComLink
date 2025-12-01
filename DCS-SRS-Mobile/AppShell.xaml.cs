@@ -1,7 +1,7 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
+﻿using ORBIT.ComLink.Common.Audio.Providers;
+using ORBIT.ComLink.Common.Settings;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile;
+namespace ORBIT.ComLink.Client.Mobile;
 
 public partial class AppShell : Shell
 {

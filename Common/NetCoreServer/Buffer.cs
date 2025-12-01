@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Text;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.NetCoreServer;
+namespace ORBIT.ComLink.Common.NetCoreServer;
 
 /// <summary>
 ///     Dynamic byte buffer

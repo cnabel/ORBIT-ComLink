@@ -1,4 +1,4 @@
-﻿namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile;
+﻿namespace ORBIT.ComLink.Client.Mobile;
 
 public partial class App : Application
 {

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Models;
+namespace ORBIT.ComLink.Client.Mobile.Models;
 
 public class RadioSendingState
 {

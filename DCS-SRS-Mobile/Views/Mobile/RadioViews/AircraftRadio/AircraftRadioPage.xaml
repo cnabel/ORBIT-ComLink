@@ -2,11 +2,11 @@
 
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:statusBar="clr-namespace:Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.StatusBar"
-             xmlns:orientationHelper="clr-namespace:Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Utility.OrientationHelper"
-             xmlns:aircraftRadio1="clr-namespace:Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.RadioViews.AircraftRadio"
-             xmlns:radioViews="clr-namespace:Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.RadioViews"
-             x:Class="Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.RadioViews.AircraftRadio.AircraftRadioPage">
+             xmlns:statusBar="clr-namespace:ORBIT.ComLink.Client.Mobile.Views.Mobile.StatusBar"
+             xmlns:orientationHelper="clr-namespace:ORBIT.ComLink.Client.Mobile.Utility.OrientationHelper"
+             xmlns:aircraftRadio1="clr-namespace:ORBIT.ComLink.Client.Mobile.Views.Mobile.RadioViews.AircraftRadio"
+             xmlns:radioViews="clr-namespace:ORBIT.ComLink.Client.Mobile.Views.Mobile.RadioViews"
+             x:Class="ORBIT.ComLink.Client.Mobile.Views.Mobile.RadioViews.AircraftRadio.AircraftRadioPage">
     <Shell.TitleView>
         <statusBar:StatusView />
     </Shell.TitleView>

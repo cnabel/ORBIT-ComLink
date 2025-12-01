@@ -2,7 +2,7 @@
 using Android.Runtime;
 using Java.Lang;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile;
+namespace ORBIT.ComLink.Client.Mobile;
 
 [Application]
 public class MainApplication : MauiApplication

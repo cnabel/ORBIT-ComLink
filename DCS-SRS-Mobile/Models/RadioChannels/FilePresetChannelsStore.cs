@@ -1,9 +1,9 @@
 ﻿using System.Globalization;
 using System.Text.RegularExpressions;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
+using ORBIT.ComLink.Common.Settings;
 using NLog;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Models.RadioChannels;
+namespace ORBIT.ComLink.Client.Mobile.Models.RadioChannels;
 
 public class FilePresetChannelsStore : IPresetChannelsStore
 {

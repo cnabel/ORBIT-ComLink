@@ -1,8 +1,8 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Recording;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Utility;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
+﻿using ORBIT.ComLink.Common.Audio.Models;
+using ORBIT.ComLink.Common.Audio.Recording;
+using ORBIT.ComLink.Common.Audio.Utility;
+using ORBIT.ComLink.Common.Models.Player;
+using ORBIT.ComLink.Common.Settings;
 using NAudio.SoundFont;
 using NAudio.Utils;
 using NAudio.Wave;
@@ -12,7 +12,7 @@ using System.Buffers;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers;
+namespace ORBIT.ComLink.Common.Audio.Providers;
 
 public class RadioMixingProvider : ISampleProvider
 {

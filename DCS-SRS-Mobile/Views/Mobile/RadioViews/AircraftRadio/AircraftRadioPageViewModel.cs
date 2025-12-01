@@ -1,10 +1,10 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Models.DCS.Models.DCSState;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Singleton;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Utility;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+﻿using ORBIT.ComLink.Client.Mobile.Models.DCS.Models.DCSState;
+using ORBIT.ComLink.Client.Mobile.Singleton;
+using ORBIT.ComLink.Client.Mobile.Utility;
+using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Models.Player;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.RadioViews.AircraftRadio;
+namespace ORBIT.ComLink.Client.Mobile.Views.Mobile.RadioViews.AircraftRadio;
 
 public class AircraftRadioPageViewModel : PropertyChangedBaseClass
 {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Opus;
+namespace ORBIT.ComLink.Common.Audio.Opus;
 
 /// <summary>
 ///     Wraps the Opus API.

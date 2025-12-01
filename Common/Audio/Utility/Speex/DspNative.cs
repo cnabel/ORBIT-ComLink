@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Utility.Speex;
+namespace ORBIT.ComLink.Common.Audio.Utility.Speex;
 
 //From https://github.com/mischa/HelloVR/blob/1796d2607f1f583d2669f005839e494511b2b83b/Assets/Plugins/Dissonance/Core/Audio/Capture/SpeexDspNative.cs
 internal static class DspNative

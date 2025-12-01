@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text.Json.Serialization.Metadata;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
+namespace ORBIT.ComLink.Common.Helpers;
 
 internal class JsonNetworkPropertiesResolver
 {

@@ -1,8 +1,8 @@
 ﻿using System;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.LameWrapper;
+using ORBIT.ComLink.Common.Audio.LameWrapper;
 using NAudio.Wave;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.NAudioLame;
+namespace ORBIT.ComLink.Common.Audio.NAudioLame;
 
 /// <summary>
 ///     Holds configuration for the LAME engine, applied when the encoder instance is initialised.

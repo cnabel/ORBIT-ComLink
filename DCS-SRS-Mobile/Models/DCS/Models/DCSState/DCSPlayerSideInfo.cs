@@ -1,6 +1,6 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+﻿using ORBIT.ComLink.Common.Models.Player;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Models.DCS.Models.DCSState;
+namespace ORBIT.ComLink.Client.Mobile.Models.DCS.Models.DCSState;
 
 public class DCSPlayerSideInfo
 {

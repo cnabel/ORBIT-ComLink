@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Utility;
+namespace ORBIT.ComLink.Common.Audio.Utility;
 
 /// <summary>
 ///     A very basic circular buffer implementation based off NAudio's Buffer
