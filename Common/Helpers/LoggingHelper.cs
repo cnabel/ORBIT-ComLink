@@ -3,7 +3,7 @@ using NLog.Config;
 using NLog.Targets;
 using NLog.Targets.Wrappers;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
+namespace ORBIT.ComLink.Common.Helpers;
 
 public static class LoggingHelper
 {
@@ -27,7 +27,7 @@ public static class LoggingHelper
 
 
         var transmissionRule = new LoggingRule(
-            "Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Server.TransmissionLogging.TransmissionLoggingQueue",
+            "ORBIT.ComLink.Common.Network.Server.TransmissionLogging.TransmissionLoggingQueue",
             LogLevel.Info,
             transmissionWrapper
         );

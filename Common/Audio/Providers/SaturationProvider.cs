@@ -4,7 +4,7 @@ using System;
 using System.Numerics;
 using System.Runtime.Intrinsics;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers
+namespace ORBIT.ComLink.Common.Audio.Providers
 {
     internal class SaturationProvider : ISampleProvider
     {

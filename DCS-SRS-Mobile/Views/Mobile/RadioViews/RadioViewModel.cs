@@ -1,14 +1,14 @@
 using System.Collections.ObjectModel;
 using System.Globalization;
 using System.Windows.Input;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Models.DCS.Models.DCSState;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Models.RadioChannels;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Singleton;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Utility;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+using ORBIT.ComLink.Client.Mobile.Models.DCS.Models.DCSState;
+using ORBIT.ComLink.Client.Mobile.Models.RadioChannels;
+using ORBIT.ComLink.Client.Mobile.Singleton;
+using ORBIT.ComLink.Client.Mobile.Utility;
+using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Models.Player;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.RadioViews;
+namespace ORBIT.ComLink.Client.Mobile.Views.Mobile.RadioViews;
 
 public class RadioViewModel : PropertyChangedBaseClass
 {

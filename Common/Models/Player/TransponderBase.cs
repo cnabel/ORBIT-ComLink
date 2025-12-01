@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+namespace ORBIT.ComLink.Common.Models.Player;
 
 public class TransponderBase
 {

@@ -1,7 +1,7 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Singleton;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+﻿using ORBIT.ComLink.Client.Mobile.Singleton;
+using ORBIT.ComLink.Common.Models.Player;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Utility;
+namespace ORBIT.ComLink.Client.Mobile.Utility;
 
 public static class TransponderHelper
 {

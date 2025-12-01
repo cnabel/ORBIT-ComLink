@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+namespace ORBIT.ComLink.Common.Models.Player;
 
 /// <summary>
 ///     Store to only 5 decimal places - thats plenty for what we need

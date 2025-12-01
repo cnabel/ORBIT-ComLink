@@ -46,7 +46,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.LameWrapper;
+namespace ORBIT.ComLink.Common.Audio.LameWrapper;
 
 /// <summary>Delegate for receiving output messages</summary>
 /// <param name="text">Text to output</param>

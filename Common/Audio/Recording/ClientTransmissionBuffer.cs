@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models;
+using ORBIT.ComLink.Common.Audio.Models;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Recording;
+namespace ORBIT.ComLink.Common.Audio.Recording;
 
 internal class ClientTransmissionBuffer
 {

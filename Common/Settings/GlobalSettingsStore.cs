@@ -7,7 +7,7 @@ using System.Threading;
 using NLog;
 using SharpConfig;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
+namespace ORBIT.ComLink.Common.Settings;
 
 public enum GlobalSettingsKeys
 {

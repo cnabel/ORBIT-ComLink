@@ -7,7 +7,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models
+namespace ORBIT.ComLink.Common.Audio.Models
 {
     namespace Dto
     {

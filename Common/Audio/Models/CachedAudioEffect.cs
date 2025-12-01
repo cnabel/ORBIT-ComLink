@@ -1,11 +1,11 @@
 ﻿using System;
 using System.IO;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Utility;
+using ORBIT.ComLink.Common.Audio.Providers;
+using ORBIT.ComLink.Common.Audio.Utility;
 using NAudio.Wave;
 using NLog;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models;
+namespace ORBIT.ComLink.Common.Audio.Models;
 
 public class CachedAudioEffect
 {

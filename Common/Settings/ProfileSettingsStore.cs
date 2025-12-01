@@ -5,12 +5,12 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings.Input;
+using ORBIT.ComLink.Common.Audio.Models;
+using ORBIT.ComLink.Common.Settings.Input;
 using NLog;
 using SharpConfig;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
+namespace ORBIT.ComLink.Common.Settings;
 
 public enum ProfileSettingsKeys
 {

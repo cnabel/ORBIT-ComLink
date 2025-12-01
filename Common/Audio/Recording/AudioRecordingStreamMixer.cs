@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Recording;
+namespace ORBIT.ComLink.Common.Audio.Recording;
 
 internal class AudioRecordingStreamMixer : AudioRecordingStream
 {

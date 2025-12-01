@@ -1,4 +1,4 @@
-﻿namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.NAudioLame;
+﻿namespace ORBIT.ComLink.Common.Audio.NAudioLame;
 
 public enum LAMEPreset
 {

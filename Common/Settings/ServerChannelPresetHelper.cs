@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Text.RegularExpressions;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+using ORBIT.ComLink.Common.Models.Player;
 using NLog;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
+namespace ORBIT.ComLink.Common.Settings;
 
 public partial class ServerChannelPresetHelper
 {

@@ -4,26 +4,26 @@ using System.Net;
 using Android.Content;
 using Android.Media;
 using Caliburn.Micro;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Singleton;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Utility;
-using Ciribob.DCS.SimpleRadio.Standalone.Common;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Opus.Core;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.EventMessages;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Client;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
+using ORBIT.ComLink.Client.Mobile.Singleton;
+using ORBIT.ComLink.Client.Mobile.Utility;
+using ORBIT.ComLink.Common;
+using ORBIT.ComLink.Common.Audio.Models;
+using ORBIT.ComLink.Common.Audio.Opus.Core;
+using ORBIT.ComLink.Common.Audio.Providers;
+using ORBIT.ComLink.Common.Models;
+using ORBIT.ComLink.Common.Models.EventMessages;
+using ORBIT.ComLink.Common.Models.Player;
+using ORBIT.ComLink.Common.Network.Client;
+using ORBIT.ComLink.Common.Network.Singletons;
 using CommunityToolkit.Maui.Alerts;
 using NAudio.Wave;
 using NLog;
 using Octokit;
-using Application = Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Opus.Application;
+using Application = ORBIT.ComLink.Common.Audio.Opus.Application;
 using LogManager = NLog.LogManager;
 
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile;
+namespace ORBIT.ComLink.Client.Mobile;
 
 public class SRSConnectionManager : IHandle<TCPClientStatusMessage>, IHandle<SRClientUpdateMessage>
 {

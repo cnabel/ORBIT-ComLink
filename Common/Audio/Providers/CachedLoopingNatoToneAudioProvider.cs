@@ -1,8 +1,8 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Utility;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
+﻿using ORBIT.ComLink.Common.Audio.Utility;
+using ORBIT.ComLink.Common.Settings;
 using NAudio.Wave;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers;
+namespace ORBIT.ComLink.Common.Audio.Providers;
 
 public class CachedLoopingNatoToneAudioProvider : IWaveProvider
 {

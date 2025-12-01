@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Globalization;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+using ORBIT.ComLink.Common.Models.Player;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
+namespace ORBIT.ComLink.Common.Helpers;
 
 public class RadioCalculator
 {

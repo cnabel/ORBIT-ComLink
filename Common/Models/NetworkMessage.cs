@@ -1,11 +1,11 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+﻿using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Models.Player;
 using System.Collections.Generic;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Text.Json.Serialization.Metadata;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Models;
+namespace ORBIT.ComLink.Common.Models;
 
 public class NetworkMessage
 {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Dsp
+namespace ORBIT.ComLink.Common.Audio.Dsp
 {
     internal class SidechainCompressor : AttRelEnvelope
     {

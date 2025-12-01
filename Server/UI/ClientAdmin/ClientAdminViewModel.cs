@@ -4,11 +4,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Threading;
 using Caliburn.Micro;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.EventMessages;
+using ORBIT.ComLink.Common.Models.EventMessages;
 using NLog;
 using LogManager = NLog.LogManager;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Server.UI.ClientAdmin;
+namespace ORBIT.ComLink.Server.UI.ClientAdmin;
 
 public sealed class ClientAdminViewModel : Screen, IHandle<ServerStateMessage>
 {

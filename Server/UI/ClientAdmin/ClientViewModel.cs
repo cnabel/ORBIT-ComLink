@@ -4,12 +4,12 @@ using System.Threading;
 using System.Windows;
 using System.Windows.Media;
 using Caliburn.Micro;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.EventMessages;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+using ORBIT.ComLink.Common.Models.EventMessages;
+using ORBIT.ComLink.Common.Models.Player;
 using NLog;
 using LogManager = NLog.LogManager;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Server.UI.ClientAdmin;
+namespace ORBIT.ComLink.Server.UI.ClientAdmin;
 
 public class ClientViewModel : Screen
 {

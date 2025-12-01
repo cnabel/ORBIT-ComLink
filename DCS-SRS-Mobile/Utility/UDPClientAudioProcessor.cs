@@ -1,24 +1,24 @@
 ﻿using System.Text;
 using Android.Provider;
 using Caliburn.Micro;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Models.DCS.Models.DCSState;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Singleton;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Utility;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Client;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings.Input;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings.Setting;
+using ORBIT.ComLink.Client.Mobile.Models;
+using ORBIT.ComLink.Client.Mobile.Models.DCS.Models.DCSState;
+using ORBIT.ComLink.Client.Mobile.Singleton;
+using ORBIT.ComLink.Common.Audio.Models;
+using ORBIT.ComLink.Common.Audio.Utility;
+using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Models;
+using ORBIT.ComLink.Common.Models.Player;
+using ORBIT.ComLink.Common.Network.Client;
+using ORBIT.ComLink.Common.Network.Singletons;
+using ORBIT.ComLink.Common.Settings;
+using ORBIT.ComLink.Common.Settings.Input;
+using ORBIT.ComLink.Common.Settings.Setting;
 using NLog;
 using LogManager = NLog.LogManager;
 
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Utility;
+namespace ORBIT.ComLink.Client.Mobile.Utility;
 
 public class UDPClientAudioProcessor : IDisposable, IHandle<PTTState>
 {

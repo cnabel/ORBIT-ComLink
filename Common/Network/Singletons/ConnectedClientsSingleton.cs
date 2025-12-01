@@ -1,10 +1,10 @@
 ﻿using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Models.Player;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
+namespace ORBIT.ComLink.Common.Network.Singletons;
 
 public sealed class ConnectedClientsSingleton : PropertyChangedBaseClass
 {

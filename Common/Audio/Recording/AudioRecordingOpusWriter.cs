@@ -1,6 +1,6 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.NAudioLame;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
+﻿using ORBIT.ComLink.Common.Audio.NAudioLame;
+using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Settings;
 using Concentus;
 using Concentus.Oggfile;
 using System;
@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Recording
+namespace ORBIT.ComLink.Common.Audio.Recording
 {
     internal class AudioRecordingOpusWriter : AudioRecordingWriterBase
     {

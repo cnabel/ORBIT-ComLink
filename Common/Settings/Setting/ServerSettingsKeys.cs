@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models;
+using ORBIT.ComLink.Common.Models;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Settings.Setting;
+namespace ORBIT.ComLink.Common.Settings.Setting;
 
 public enum ServerSettingsKeys
 {

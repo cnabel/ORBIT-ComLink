@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Net;
 using System.Text.Json.Serialization;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
+using ORBIT.ComLink.Common.Helpers;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+namespace ORBIT.ComLink.Common.Models.Player;
 
 public class SRClientBase : PropertyChangedBaseClass
 {

@@ -3,9 +3,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-             xmlns:settings="clr-namespace:Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.Settings"
+             xmlns:settings="clr-namespace:ORBIT.ComLink.Client.Mobile.Views.Mobile.Settings"
              Title="Settings"
-             x:Class="Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.Settings.ClientSettingsPage">
+             x:Class="ORBIT.ComLink.Client.Mobile.Views.Mobile.Settings.ClientSettingsPage">
 
     <ContentPage.BindingContext>
         <settings:ClientSettingsViewModel />

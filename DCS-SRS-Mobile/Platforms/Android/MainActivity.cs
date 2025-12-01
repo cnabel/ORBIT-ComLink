@@ -1,10 +1,10 @@
 ﻿using Android.App;
 using Android.Content.PM;
 using Android.Views;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Utility;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
+using ORBIT.ComLink.Client.Mobile.Utility;
+using ORBIT.ComLink.Common.Network.Singletons;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile;
+namespace ORBIT.ComLink.Client.Mobile;
 
 [Activity(Theme = "@style/Maui.SplashTheme", MainLauncher = true, LaunchMode = LaunchMode.SingleTop,
     ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode |

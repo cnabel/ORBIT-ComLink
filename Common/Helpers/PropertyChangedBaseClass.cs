@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
+namespace ORBIT.ComLink.Common.Helpers;
 
 public class PropertyChangedBaseClass : INotifyPropertyChanged
 {

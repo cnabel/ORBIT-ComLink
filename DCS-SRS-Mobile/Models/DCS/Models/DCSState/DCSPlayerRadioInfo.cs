@@ -1,9 +1,9 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+﻿using ORBIT.ComLink.Common;
+using ORBIT.ComLink.Common.Models;
+using ORBIT.ComLink.Common.Models.Player;
 using Newtonsoft.Json;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Models.DCS.Models.DCSState;
+namespace ORBIT.ComLink.Client.Mobile.Models.DCS.Models.DCSState;
 
 public class DCSPlayerRadioInfo
 {

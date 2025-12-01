@@ -6,7 +6,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.NetCoreServer;
+namespace ORBIT.ComLink.Common.NetCoreServer;
 
 /// <summary>
 ///     TCP server is used to connect, disconnect and manage TCP sessions

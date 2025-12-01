@@ -38,7 +38,7 @@
 
 #endregion
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.LameWrapper;
+namespace ORBIT.ComLink.Common.Audio.LameWrapper;
 
 /// <summary>MPEG channel mode</summary>
 public enum MPEGMode : uint

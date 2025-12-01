@@ -1,8 +1,8 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models;
+﻿using ORBIT.ComLink.Common.Audio.Models;
 using NAudio.Wave;
 using System;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers
+namespace ORBIT.ComLink.Common.Audio.Providers
 {
     internal class CachedEffectProvider : ISampleProvider
     {

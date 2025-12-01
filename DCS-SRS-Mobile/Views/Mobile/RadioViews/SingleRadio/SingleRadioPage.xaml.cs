@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Models.DCS.Models.DCSState;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Singleton;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Utility;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.EventMessages;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
+using ORBIT.ComLink.Client.Mobile.Models.DCS.Models.DCSState;
+using ORBIT.ComLink.Client.Mobile.Singleton;
+using ORBIT.ComLink.Client.Mobile.Utility;
+using ORBIT.ComLink.Common.Models.EventMessages;
+using ORBIT.ComLink.Common.Models.Player;
+using ORBIT.ComLink.Common.Network.Singletons;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.RadioViews.SingleRadio;
+namespace ORBIT.ComLink.Client.Mobile.Views.Mobile.RadioViews.SingleRadio;
 
 public partial class SingleRadioPage : ContentPage
 {

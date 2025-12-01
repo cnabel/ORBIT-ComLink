@@ -1,11 +1,11 @@
 ﻿using System.Runtime;
 using Caliburn.Micro;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.EventMessages;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Server;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings.Setting;
+using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Models.EventMessages;
+using ORBIT.ComLink.Common.Network.Server;
+using ORBIT.ComLink.Common.Network.Singletons;
+using ORBIT.ComLink.Common.Settings;
+using ORBIT.ComLink.Common.Settings.Setting;
 using CommandLine;
 using NLog;
 using NLog.Config;
@@ -14,7 +14,7 @@ using NLog.Targets.Wrappers;
 using Sentry;
 using LogManager = NLog.LogManager;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Server;
+namespace ORBIT.ComLink.Server;
 
 internal class Program : IHandle<SRSClientStatus>
 {

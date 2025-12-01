@@ -43,7 +43,7 @@ using size_t = System.UInt64;
 #else
 #endif
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.LameWrapper;
+namespace ORBIT.ComLink.Common.Audio.LameWrapper;
 
 /// <summary>Assembler optimizations</summary>
 public enum ASMOptimizations : uint

@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using CommunityToolkit.Mvvm.Messaging;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Utility.OrientationHelper;
+namespace ORBIT.ComLink.Client.Mobile.Utility.OrientationHelper;
 
 //SOURCE https://www.cayas.de/de/blog/responsive-layouts-for-dotnet-maui
 [ContentProperty(nameof(Default))]

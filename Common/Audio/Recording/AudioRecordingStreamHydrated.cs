@@ -1,6 +1,6 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Utility;
+﻿using ORBIT.ComLink.Common.Audio.Utility;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Recording;
+namespace ORBIT.ComLink.Common.Audio.Recording;
 
 // AudioRecordingStream for a stream of audio samples that excludes dead air. this class
 // provides the ability to (with some inaccuracies) reconstruct (or "hydrate") the dead

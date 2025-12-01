@@ -19,15 +19,15 @@ ORBIT-ComLink enables realistic radio communication for DCS World multiplayer se
 ```
 ORBIT-ComLink/
 ├── Common/                 # Shared library (networking, models, helpers)
-├── DCS-SR-Client/          # Main WPF radio client application
-├── DCS-SR-CommonTests/     # Unit tests (MSTest)
-├── DCS-SR-ExternalAudio/   # External audio integration (TTS, recordings)
+├── ComLink-Client/         # Main WPF radio client application
+├── ComLink-CommonTests/    # Unit tests (MSTest)
+├── ComLink-ExternalAudio/  # External audio integration (TTS, recordings)
 ├── Server/                 # WPF Server GUI application
 ├── ServerCommandLine/      # Cross-platform command-line server
 ├── SharedAudio/            # Audio processing library
 ├── AutoUpdater/            # Client auto-update functionality
 ├── Installer/              # Windows installer application
-├── SRS-Lua-Wrapper/        # C++ DLL for DCS Lua integration
+├── ComLink-Lua-Wrapper/    # C++ DLL for DCS Lua integration
 ├── Scripts/                # Lua scripts for DCS integration
 │   ├── DCS-SRS/            # Main SRS scripts and UI
 │   └── Hooks/              # DCS hook scripts
@@ -38,13 +38,13 @@ ORBIT-ComLink/
 
 | Project | Type | Description |
 |---------|------|-------------|
-| `DCS-SR-Client` | WPF App (.NET 9.0) | Radio client with overlay UI |
+| `ComLink-Client` | WPF App (.NET 9.0) | Radio client with overlay UI |
 | `Server` | WPF App (.NET 9.0) | Server with GUI |
 | `ServerCommandLine` | Console App (.NET 9.0) | Headless server for Windows/Linux |
 | `Common` | Library (.NET 9.0) | Shared code: networking, models, settings |
 | `SharedAudio` | Library (.NET 9.0) | Audio encoding/decoding, effects |
-| `DCS-SR-ExternalAudio` | Console App (.NET 9.0) | External audio player (TTS, files) |
-| `SRS-Lua-Wrapper` | C++ DLL (x64) | Native DCS integration |
+| `ComLink-ExternalAudio` | Console App (.NET 9.0) | External audio player (TTS, files) |
+| `ComLink-Lua-Wrapper` | C++ DLL (x64) | Native DCS integration |
 
 ## Build Instructions
 
@@ -59,7 +59,7 @@ ORBIT-ComLink/
 
 ### Building with Visual Studio
 
-1. Open `DCS-SimpleRadioStandalone.sln`
+1. Open `ORBIT-ComLink.sln`
 2. Select `Release` | `x64` configuration
 3. Build solution (Ctrl+Shift+B)
 
@@ -74,7 +74,7 @@ msbuild /p:Configuration=Release /p:Platform=x64
 
 # Or use dotnet for individual projects
 dotnet build ./Common/Common.csproj -c Release
-dotnet build ./DCS-SR-Client/DCS-SR-Client.csproj -c Release
+dotnet build ./ComLink-Client/ComLink-Client.csproj -c Release
 ```
 
 ### Publishing (Full Release Build)
@@ -106,16 +106,16 @@ Tests use MSTest framework and target `net9.0-windows`.
 
 ```bash
 # Run tests with dotnet
-dotnet test ./DCS-SR-CommonTests/DCS-SR-CommonTests.csproj -c Release
+dotnet test ./ComLink-CommonTests/ComLink-CommonTests.csproj -c Release
 
 # Run tests with VSTest (CI method)
-VSTest.Console DCS-SR-CommonTests\bin\Release\net9.0-windows\DCS-SR-CommonTests.dll
+VSTest.Console ComLink-CommonTests\bin\Release\net9.0-windows\ComLink-CommonTests.dll
 ```
 
 ### Test Structure
 
 ```
-DCS-SR-CommonTests/
+ComLink-CommonTests/
 ├── Helpers/
 │   └── ConversionHelpersTests.cs    # Byte/short conversion tests
 └── Network/
@@ -129,7 +129,7 @@ Tests follow MSTest conventions:
 ```csharp
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Tests.YourNamespace;
+namespace ORBIT.ComLink.Common.Tests.YourNamespace;
 
 [TestClass]
 public class YourTests
@@ -180,7 +180,7 @@ Currently no automated C# formatter configured (TODO in workflow). Follow existi
 | `global.json` | .NET SDK version (9.0.0) |
 | `.stylua.toml` | StyLua Lua formatter config |
 | `.styluaignore` | Files to ignore for Lua formatting |
-| `DCS-SR-Client/NLog.config` | Client logging configuration |
+| `ComLink-Client/NLog.config` | Client logging configuration |
 | `Server/NLog.config` | Server logging configuration |
 
 ## Key Dependencies
@@ -233,14 +233,14 @@ Currently no automated C# formatter configured (TODO in workflow). Follow existi
 
 ### Modifying Radio Presets
 
-Radio presets are JSON files in `DCS-SR-Client/RadioModels/`.
-See `DCS-SR-Client/RadioModels/HOWTO.md` for DSP effects documentation.
+Radio presets are JSON files in `ComLink-Client/RadioModels/`.
+See `ComLink-Client/RadioModels/HOWTO.md` for DSP effects documentation.
 
 ### Modifying DCS Integration
 
 1. Lua scripts: `Scripts/DCS-SRS/`
-2. Native wrapper: `SRS-Lua-Wrapper/`
-3. Rebuild C++ project: `msbuild .\SRS-Lua-Wrapper\SRS-Lua-Wrapper.vcxproj /p:Configuration=Release /p:Platform=x64`
+2. Native wrapper: `ComLink-Lua-Wrapper/`
+3. Rebuild C++ project: `msbuild .\ComLink-Lua-Wrapper\ComLink-Lua-Wrapper.vcxproj /p:Configuration=Release /p:Platform=x64`
 
 ## Network Protocol
 
@@ -279,7 +279,7 @@ Voice is transmitted via UDP with a binary protocol defined in `Common/Models/UD
 ### Logging
 
 Logs are configured via NLog. Check:
-- Client: `%APPDATA%\DCS-SimpleRadio\clientlog.txt`
+- Client: `%APPDATA%\ORBIT-ComLink\clientlog.txt`
 - Server: Application directory `serverlog.txt`
 
 ## External Resources

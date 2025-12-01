@@ -1,4 +1,4 @@
-﻿namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Models.DCS.Models.DCSState;
+﻿namespace ORBIT.ComLink.Client.Mobile.Models.DCS.Models.DCSState;
 
 public struct DCSAircraftCapabilities
 {

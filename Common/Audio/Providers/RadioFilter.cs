@@ -1,7 +1,7 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models;
+﻿using ORBIT.ComLink.Common.Audio.Models;
 using NAudio.Wave;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers;
+namespace ORBIT.ComLink.Common.Audio.Providers;
 
 public class RadioFilter : ISampleProvider
 {

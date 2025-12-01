@@ -5,7 +5,7 @@ using NAudio.Utils;
 using NAudio.Wave;
 using NAudio.Wave.SampleProviders;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers;
+namespace ORBIT.ComLink.Common.Audio.Providers;
 
 /// <summary>
 ///     A sample provider mixer, allowing inputs to be added and removed

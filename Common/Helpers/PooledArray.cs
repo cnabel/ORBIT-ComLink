@@ -1,6 +1,6 @@
 ﻿using System.Buffers;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers
+namespace ORBIT.ComLink.Common.Helpers
 {
     // https://www.c-sharpcorner.com/article/mastering-arraypoolt-in-c-sharp-net-to-cut-down-allocations/
     internal readonly ref struct PooledArray<T>

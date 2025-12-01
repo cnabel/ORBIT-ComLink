@@ -1,7 +1,7 @@
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.Settings;
+using ORBIT.ComLink.Client.Mobile.Views.Mobile.Settings;
 using CommunityToolkit.Maui.Alerts;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.StatusBar;
+namespace ORBIT.ComLink.Client.Mobile.Views.Mobile.StatusBar;
 
 public partial class StatusView : ContentView
 {

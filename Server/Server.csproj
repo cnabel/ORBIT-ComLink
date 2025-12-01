@@ -2,8 +2,8 @@
     <PropertyGroup>
         <TargetFramework>net9.0-windows</TargetFramework>
         <OutputType>WinExe</OutputType>
-        <RootNamespace>Ciribob.DCS.SimpleRadio.Standalone.Server</RootNamespace>
-        <AssemblyName>SRS-Server</AssemblyName>
+        <RootNamespace>ORBIT.ComLink.Server</RootNamespace>
+        <AssemblyName>ComLink-Server</AssemblyName>
         <ApplicationRevision>0</ApplicationRevision>
         <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
         <UseApplicationTrust>false</UseApplicationTrust>
@@ -18,10 +18,10 @@
         <LangVersion>11</LangVersion>
         <Nullable>disable</Nullable>
         <IsPackable>false</IsPackable>
-        <Company>Ciribob - GitHub.com/Ciribob</Company>
+        <Company>ORBIT</Company>
         <AssemblyVersion>2.3.3.3</AssemblyVersion>
         <FileVersion>2.3.3.3</FileVersion>
-        <Product>DCS-SimpleRadio Standalone</Product>
+        <Product>ORBIT ComLink</Product>
     </PropertyGroup>
     <PropertyGroup>
         <ApplicationIcon>server-10.ico</ApplicationIcon>
@@ -48,7 +48,7 @@
     </PropertyGroup>
     <PropertyGroup>
         <ApplicationManifest>app.manifest</ApplicationManifest>
-        <StartupObject>Ciribob.DCS.SimpleRadio.Standalone.Server.App</StartupObject>
+        <StartupObject>ORBIT.ComLink.Server.App</StartupObject>
     </PropertyGroup>
     <ItemGroup>
         <Content Include="NLog.config">

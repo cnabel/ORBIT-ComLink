@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using NLog;
 using Octokit;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
+namespace ORBIT.ComLink.Common.Helpers;
 
 //Quick and dirty update checker based on GitHub Published Versions
 //TODO make this a singleton

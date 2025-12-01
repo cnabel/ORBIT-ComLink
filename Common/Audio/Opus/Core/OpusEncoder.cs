@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Opus.Core;
+namespace ORBIT.ComLink.Common.Audio.Opus.Core;
 
 /// <summary>
 ///     Opus codec wrapper.

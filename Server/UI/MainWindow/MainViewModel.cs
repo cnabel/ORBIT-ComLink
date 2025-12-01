@@ -6,17 +6,17 @@ using System.Windows;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
 using Caliburn.Micro;
-using Ciribob.DCS.SimpleRadio.Standalone.Common;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.EventMessages;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings.Setting;
-using Ciribob.DCS.SimpleRadio.Standalone.Server.UI.ClientAdmin;
+using ORBIT.ComLink.Common;
+using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Models.EventMessages;
+using ORBIT.ComLink.Common.Network.Singletons;
+using ORBIT.ComLink.Common.Settings;
+using ORBIT.ComLink.Common.Settings.Setting;
+using ORBIT.ComLink.Server.UI.ClientAdmin;
 using NLog;
 using LogManager = NLog.LogManager;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Server.UI.MainWindow;
+namespace ORBIT.ComLink.Server.UI.MainWindow;
 
 public sealed class MainViewModel : Screen, IHandle<ServerStateMessage>
 {

@@ -1,8 +1,8 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
+﻿using ORBIT.ComLink.Common.Models.Player;
 using System;
 using System.Buffers;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models;
+namespace ORBIT.ComLink.Common.Audio.Models;
 
 public class JitterBufferAudio
 {

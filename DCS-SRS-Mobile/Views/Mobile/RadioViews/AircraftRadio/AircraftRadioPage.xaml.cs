@@ -1,7 +1,7 @@
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Utility;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
+using ORBIT.ComLink.Client.Mobile.Utility;
+using ORBIT.ComLink.Common.Network.Singletons;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.RadioViews.AircraftRadio;
+namespace ORBIT.ComLink.Client.Mobile.Views.Mobile.RadioViews.AircraftRadio;
 
 public partial class AircraftRadioPage : ContentPage
 {

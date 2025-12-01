@@ -1,14 +1,14 @@
 ﻿using System.Collections.Concurrent;
 using System.Threading;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings.Setting;
+using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Models.Player;
+using ORBIT.ComLink.Common.Settings;
+using ORBIT.ComLink.Common.Settings.Setting;
 using NLog;
 using NLog.Targets;
 using NLog.Targets.Wrappers;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Server.TransmissionLogging;
+namespace ORBIT.ComLink.Common.Network.Server.TransmissionLogging;
 
 internal class TransmissionLoggingQueue
 {

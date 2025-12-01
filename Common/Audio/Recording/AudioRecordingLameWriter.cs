@@ -3,12 +3,12 @@ using System.Buffers;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.InteropServices;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.NAudioLame;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
+using ORBIT.ComLink.Common.Audio.NAudioLame;
+using ORBIT.ComLink.Common.Settings;
 using NAudio.Wave;
 using NLog;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Recording;
+namespace ORBIT.ComLink.Common.Audio.Recording;
 
 internal class AudioRecordingLameWriter : AudioRecordingWriterBase
 {

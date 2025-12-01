@@ -6,17 +6,17 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
 using Caliburn.Micro;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.EventMessages;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.NetCoreServer;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings.Setting;
+using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Models;
+using ORBIT.ComLink.Common.Models.EventMessages;
+using ORBIT.ComLink.Common.Models.Player;
+using ORBIT.ComLink.Common.NetCoreServer;
+using ORBIT.ComLink.Common.Settings;
+using ORBIT.ComLink.Common.Settings.Setting;
 using NLog;
 using LogManager = NLog.LogManager;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Server;
+namespace ORBIT.ComLink.Common.Network.Server;
 
 public class ServerSync : TcpServer, IHandle<ServerSettingsChangedMessage>
 {

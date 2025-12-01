@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Buffers;
 using System.Collections.Generic;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Utility;
+using ORBIT.ComLink.Common.Audio.Models;
+using ORBIT.ComLink.Common.Audio.Utility;
 using NAudio.Utils;
 using NAudio.Wave;
 using NLog;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers;
+namespace ORBIT.ComLink.Common.Audio.Providers;
 
 internal class JitterBufferProviderInterface
 {

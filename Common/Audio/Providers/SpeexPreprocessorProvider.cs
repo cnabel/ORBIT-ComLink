@@ -1,10 +1,10 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Utility.Speex;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
+﻿using ORBIT.ComLink.Common.Audio.Utility.Speex;
+using ORBIT.ComLink.Common.Helpers;
 using NAudio.Wave;
 using System;
 using System.Buffers;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers
+namespace ORBIT.ComLink.Common.Audio.Providers
 {
     internal class SpeexPreprocessorProvider : ISampleProvider, IDisposable
     {

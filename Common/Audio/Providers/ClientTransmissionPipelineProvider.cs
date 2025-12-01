@@ -1,9 +1,9 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models.Dto;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.NetCoreServer;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
+﻿using ORBIT.ComLink.Common.Audio.Models;
+using ORBIT.ComLink.Common.Audio.Models.Dto;
+using ORBIT.ComLink.Common.Models.Player;
+using ORBIT.ComLink.Common.NetCoreServer;
+using ORBIT.ComLink.Common.Network.Singletons;
+using ORBIT.ComLink.Common.Settings;
 using NAudio.Codecs;
 using NAudio.Utils;
 using NAudio.Wave;
@@ -19,7 +19,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers
+namespace ORBIT.ComLink.Common.Audio.Providers
 {
     // #TODO: ISampleProvider?
     internal class ClientTransmissionPipelineProvider

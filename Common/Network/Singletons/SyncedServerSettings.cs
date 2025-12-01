@@ -2,12 +2,12 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Text.Json;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.EventMessages;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.Player;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings.Setting;
+using ORBIT.ComLink.Common.Models.EventMessages;
+using ORBIT.ComLink.Common.Models.Player;
+using ORBIT.ComLink.Common.Settings.Setting;
 using NLog;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
+namespace ORBIT.ComLink.Common.Network.Singletons;
 
 public class SyncedServerSettings
 {

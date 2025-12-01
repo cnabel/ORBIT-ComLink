@@ -2,7 +2,7 @@
 using System.Text;
 using NLog;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Models;
+namespace ORBIT.ComLink.Common.Models;
 
 /**
  * UDP PACKET LAYOUT

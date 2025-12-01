@@ -1,7 +1,7 @@
-﻿using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Codecs;
+﻿using ORBIT.ComLink.Common.Audio.Codecs;
 using NAudio.Wave;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers
+namespace ORBIT.ComLink.Common.Audio.Providers
 {
     internal class CVSDProvider : ISampleProvider
     {

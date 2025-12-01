@@ -1,10 +1,10 @@
 ﻿using System.Globalization;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Singleton;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
+using ORBIT.ComLink.Client.Mobile.Singleton;
+using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Settings;
 using NLog;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.Settings;
+namespace ORBIT.ComLink.Client.Mobile.Views.Mobile.Settings;
 
 public class ClientSettingsViewModel : PropertyChangedBaseClass
 {

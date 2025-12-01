@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.NetCoreServer;
+namespace ORBIT.ComLink.Common.NetCoreServer;
 
 /// <summary>
 ///     TCP client is used to read/write data from/into the connected TCP server

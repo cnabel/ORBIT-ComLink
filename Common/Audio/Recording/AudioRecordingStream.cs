@@ -1,4 +1,4 @@
-﻿namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Recording;
+﻿namespace ORBIT.ComLink.Common.Audio.Recording;
 
 // abstract base class for a "stream" of audio information. the stream may return samples
 // from the audio engine or construct samples from other streams (ie, mix).

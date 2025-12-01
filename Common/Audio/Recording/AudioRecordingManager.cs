@@ -3,16 +3,16 @@ using System.Buffers;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Models;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Utility;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
+using ORBIT.ComLink.Common.Audio.Models;
+using ORBIT.ComLink.Common.Audio.Providers;
+using ORBIT.ComLink.Common.Audio.Utility;
+using ORBIT.ComLink.Common.Network.Singletons;
+using ORBIT.ComLink.Common.Settings;
 using NAudio.Wave;
 using NAudio.Wave.SampleProviders;
 using NLog;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Recording;
+namespace ORBIT.ComLink.Common.Audio.Recording;
 
 public class AudioRecordingManager
 {

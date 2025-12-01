@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Models;
+namespace ORBIT.ComLink.Common.Models;
 
 public class RadioReceivingState
 {

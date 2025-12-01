@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.NAudioLame;
+namespace ORBIT.ComLink.Common.Audio.NAudioLame;
 
 /// <summary>ID3 tag content</summary>
 public class ID3TagData

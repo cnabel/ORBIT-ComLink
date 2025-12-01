@@ -1,17 +1,17 @@
 ﻿using System.Net;
 using System.Net.Sockets;
 using Caliburn.Micro;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Singleton;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.RadioViews.AircraftRadio;
-using Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.RadioViews.SingleRadio;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Audio.Providers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Helpers;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Models.EventMessages;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Network.Singletons;
-using Ciribob.DCS.SimpleRadio.Standalone.Common.Settings;
+using ORBIT.ComLink.Client.Mobile.Singleton;
+using ORBIT.ComLink.Client.Mobile.Views.Mobile.RadioViews.AircraftRadio;
+using ORBIT.ComLink.Client.Mobile.Views.Mobile.RadioViews.SingleRadio;
+using ORBIT.ComLink.Common.Audio.Providers;
+using ORBIT.ComLink.Common.Helpers;
+using ORBIT.ComLink.Common.Models.EventMessages;
+using ORBIT.ComLink.Common.Network.Singletons;
+using ORBIT.ComLink.Common.Settings;
 using CommunityToolkit.Maui.Alerts;
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Views.Mobile.Home;
+namespace ORBIT.ComLink.Client.Mobile.Views.Mobile.Home;
 
 public partial class HomePage : ContentPage, IHandle<TCPClientStatusMessage>
 {

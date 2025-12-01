@@ -32,7 +32,7 @@ using System;
 // ReSharper disable MemberCanBeProtected.Global
 // ReSharper disable InconsistentNaming
 
-namespace Ciribob.DCS.SimpleRadio.Standalone.Common.Properties;
+namespace ORBIT.ComLink.Common.Properties;
 
 /// <summary>
 ///     Indicates that the value of the marked element could be <c>null</c> sometimes,

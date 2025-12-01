@@ -1,4 +1,4 @@
-﻿namespace Ciribob.DCS.SimpleRadio.Standalone.Client.Mobile.Models.RadioChannels;
+﻿namespace ORBIT.ComLink.Client.Mobile.Models.RadioChannels;
 
 public class MockPresetChannelsStore : IPresetChannelsStore
 {
